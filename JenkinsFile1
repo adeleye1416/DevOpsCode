@@ -1,12 +1,12 @@
 new commit  pipeline{
- new chnage for commit   tools{
+ new change for commit   tools{
         jdk 'myjava'
-        maven 'mymaven131'
+        maven 'mymvn'
     }
     //more commits on the file
     //commit on github-- new one
     agent any
-    new ctsage added
+    new stage added
     stages{
         stage('Checkout on git'){
             agent any
